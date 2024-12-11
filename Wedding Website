@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Registry</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #f8c8dc;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 1rem 1.5rem;
+        }
+        nav a:hover {
+            background-color: #f8c8dc;
+            color: #fff;
+        }
+        section {
+            padding: 2rem;
+            max-width: 800px;
+            margin: auto;
+        }
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            color: #f8c8dc;
+        }
+        .fund {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .fund h3 {
+            margin: 0 0 1rem;
+            color: #333;
+        }
+        .fund p {
+            margin: 0 0 1rem;
+        }
+        .fund a {
+            display: inline-block;
+            background-color: #f8c8dc;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+        }
+        .fund a:hover {
+            background-color: #d18aaa;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background-color: #f8c8dc;
+            color: #fff;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>[Your Names] Wedding Registry</h1>
+        <p>Thank you for celebrating our special day!</p>
+    </header>
+    <nav>
+        <a href="#honeymoon">Honeymoon Fund</a>
+        <a href="#home">Future Home Fund</a>
+        <a href="#wedding">Wedding Fund</a>
+    </nav>
+    <section>
+        <h2>Welcome</h2>
+        <p>We are so grateful for your love and support as we start this new chapter of our lives. Instead of traditional gifts, we would appreciate contributions to our Honeymoon Fund, Future Home Fund, or Wedding Fund. Thank you for being part of our journey!</p>
+    </section>
+    <section id="honeymoon">
+        <div class="fund">
+            <h3>Honeymoon Fund</h3>
+            <p>Your generosity will help us create memories to last a lifetime as we explore the world together on our honeymoon.</p>
+            <a href="#">Contribute to the Honeymoon Fund</a>
+        </div>
+    </section>
+    <section id="home">
+        <div class="fund">
+            <h3>Future Home Fund</h3>
+            <p>Help us build our dream home where we can create a lifetime of memories.</p>
+            <a href="#">Contribute to the Future Home Fund</a>
+        </div>
+    </section>
+    <section id="wedding">
+        <div class="fund">
+            <h3>Wedding Fund</h3>
+            <p>Your contribution will help us bring our wedding dreams to life and celebrate with all of you!</p>
+            <a href="#">Contribute to the Wedding Fund</a>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 [Your Names]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
